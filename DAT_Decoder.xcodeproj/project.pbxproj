@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CAE3444A1D86EC32005D6DC2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE344491D86EC32005D6DC2 /* AppDelegate.m */; };
+		CAE3444D1D86EC32005D6DC2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE3444C1D86EC32005D6DC2 /* main.m */; };
+		CAE344501D86EC32005D6DC2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE3444F1D86EC32005D6DC2 /* ViewController.m */; };
+		CAE344521D86EC32005D6DC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAE344511D86EC32005D6DC2 /* Assets.xcassets */; };
+		CAE344551D86EC32005D6DC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAE344531D86EC32005D6DC2 /* Main.storyboard */; };
+		CAE344601D86EC32005D6DC2 /* DAT_DecoderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE3445F1D86EC32005D6DC2 /* DAT_DecoderTests.m */; };
+		CAE3446B1D86EC32005D6DC2 /* DAT_DecoderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE3446A1D86EC32005D6DC2 /* DAT_DecoderUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CAE3445C1D86EC32005D6DC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAE3443D1D86EC32005D6DC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAE344441D86EC32005D6DC2;
+			remoteInfo = DAT_Decoder;
+		};
+		CAE344671D86EC32005D6DC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAE3443D1D86EC32005D6DC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAE344441D86EC32005D6DC2;
+			remoteInfo = DAT_Decoder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CAE344451D86EC32005D6DC2 /* DAT_Decoder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DAT_Decoder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAE344481D86EC32005D6DC2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CAE344491D86EC32005D6DC2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CAE3444C1D86EC32005D6DC2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CAE3444E1D86EC32005D6DC2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CAE3444F1D86EC32005D6DC2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CAE344511D86EC32005D6DC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CAE344541D86EC32005D6DC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CAE344561D86EC32005D6DC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAE3445B1D86EC32005D6DC2 /* DAT_DecoderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DAT_DecoderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAE3445F1D86EC32005D6DC2 /* DAT_DecoderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DAT_DecoderTests.m; sourceTree = "<group>"; };
+		CAE344611D86EC32005D6DC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAE344661D86EC32005D6DC2 /* DAT_DecoderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DAT_DecoderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAE3446A1D86EC32005D6DC2 /* DAT_DecoderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DAT_DecoderUITests.m; sourceTree = "<group>"; };
+		CAE3446C1D86EC32005D6DC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAE344421D86EC32005D6DC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAE344581D86EC32005D6DC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAE344631D86EC32005D6DC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAE3443C1D86EC32005D6DC2 = {
+			isa = PBXGroup;
+			children = (
+				CAE344471D86EC32005D6DC2 /* DAT_Decoder */,
+				CAE3445E1D86EC32005D6DC2 /* DAT_DecoderTests */,
+				CAE344691D86EC32005D6DC2 /* DAT_DecoderUITests */,
+				CAE344461D86EC32005D6DC2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAE344461D86EC32005D6DC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAE344451D86EC32005D6DC2 /* DAT_Decoder.app */,
+				CAE3445B1D86EC32005D6DC2 /* DAT_DecoderTests.xctest */,
+				CAE344661D86EC32005D6DC2 /* DAT_DecoderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAE344471D86EC32005D6DC2 /* DAT_Decoder */ = {
+			isa = PBXGroup;
+			children = (
+				CAE344481D86EC32005D6DC2 /* AppDelegate.h */,
+				CAE344491D86EC32005D6DC2 /* AppDelegate.m */,
+				CAE3444E1D86EC32005D6DC2 /* ViewController.h */,
+				CAE3444F1D86EC32005D6DC2 /* ViewController.m */,
+				CAE344511D86EC32005D6DC2 /* Assets.xcassets */,
+				CAE344531D86EC32005D6DC2 /* Main.storyboard */,
+				CAE344561D86EC32005D6DC2 /* Info.plist */,
+				CAE3444B1D86EC32005D6DC2 /* Supporting Files */,
+			);
+			path = DAT_Decoder;
+			sourceTree = "<group>";
+		};
+		CAE3444B1D86EC32005D6DC2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CAE3444C1D86EC32005D6DC2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CAE3445E1D86EC32005D6DC2 /* DAT_DecoderTests */ = {
+			isa = PBXGroup;
+			children = (
+				CAE3445F1D86EC32005D6DC2 /* DAT_DecoderTests.m */,
+				CAE344611D86EC32005D6DC2 /* Info.plist */,
+			);
+			path = DAT_DecoderTests;
+			sourceTree = "<group>";
+		};
+		CAE344691D86EC32005D6DC2 /* DAT_DecoderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CAE3446A1D86EC32005D6DC2 /* DAT_DecoderUITests.m */,
+				CAE3446C1D86EC32005D6DC2 /* Info.plist */,
+			);
+			path = DAT_DecoderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAE344441D86EC32005D6DC2 /* DAT_Decoder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAE3446F1D86EC32005D6DC2 /* Build configuration list for PBXNativeTarget "DAT_Decoder" */;
+			buildPhases = (
+				CAE344411D86EC32005D6DC2 /* Sources */,
+				CAE344421D86EC32005D6DC2 /* Frameworks */,
+				CAE344431D86EC32005D6DC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DAT_Decoder;
+			productName = DAT_Decoder;
+			productReference = CAE344451D86EC32005D6DC2 /* DAT_Decoder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CAE3445A1D86EC32005D6DC2 /* DAT_DecoderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAE344721D86EC32005D6DC2 /* Build configuration list for PBXNativeTarget "DAT_DecoderTests" */;
+			buildPhases = (
+				CAE344571D86EC32005D6DC2 /* Sources */,
+				CAE344581D86EC32005D6DC2 /* Frameworks */,
+				CAE344591D86EC32005D6DC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAE3445D1D86EC32005D6DC2 /* PBXTargetDependency */,
+			);
+			name = DAT_DecoderTests;
+			productName = DAT_DecoderTests;
+			productReference = CAE3445B1D86EC32005D6DC2 /* DAT_DecoderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CAE344651D86EC32005D6DC2 /* DAT_DecoderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAE344751D86EC32005D6DC2 /* Build configuration list for PBXNativeTarget "DAT_DecoderUITests" */;
+			buildPhases = (
+				CAE344621D86EC32005D6DC2 /* Sources */,
+				CAE344631D86EC32005D6DC2 /* Frameworks */,
+				CAE344641D86EC32005D6DC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAE344681D86EC32005D6DC2 /* PBXTargetDependency */,
+			);
+			name = DAT_DecoderUITests;
+			productName = DAT_DecoderUITests;
+			productReference = CAE344661D86EC32005D6DC2 /* DAT_DecoderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAE3443D1D86EC32005D6DC2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Ralph007;
+				TargetAttributes = {
+					CAE344441D86EC32005D6DC2 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					CAE3445A1D86EC32005D6DC2 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = CAE344441D86EC32005D6DC2;
+					};
+					CAE344651D86EC32005D6DC2 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = CAE344441D86EC32005D6DC2;
+					};
+				};
+			};
+			buildConfigurationList = CAE344401D86EC32005D6DC2 /* Build configuration list for PBXProject "DAT_Decoder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAE3443C1D86EC32005D6DC2;
+			productRefGroup = CAE344461D86EC32005D6DC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAE344441D86EC32005D6DC2 /* DAT_Decoder */,
+				CAE3445A1D86EC32005D6DC2 /* DAT_DecoderTests */,
+				CAE344651D86EC32005D6DC2 /* DAT_DecoderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAE344431D86EC32005D6DC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAE344521D86EC32005D6DC2 /* Assets.xcassets in Resources */,
+				CAE344551D86EC32005D6DC2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAE344591D86EC32005D6DC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAE344641D86EC32005D6DC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAE344411D86EC32005D6DC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAE344501D86EC32005D6DC2 /* ViewController.m in Sources */,
+				CAE3444D1D86EC32005D6DC2 /* main.m in Sources */,
+				CAE3444A1D86EC32005D6DC2 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAE344571D86EC32005D6DC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAE344601D86EC32005D6DC2 /* DAT_DecoderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAE344621D86EC32005D6DC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAE3446B1D86EC32005D6DC2 /* DAT_DecoderUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CAE3445D1D86EC32005D6DC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAE344441D86EC32005D6DC2 /* DAT_Decoder */;
+			targetProxy = CAE3445C1D86EC32005D6DC2 /* PBXContainerItemProxy */;
+		};
+		CAE344681D86EC32005D6DC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAE344441D86EC32005D6DC2 /* DAT_Decoder */;
+			targetProxy = CAE344671D86EC32005D6DC2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CAE344531D86EC32005D6DC2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAE344541D86EC32005D6DC2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CAE3446D1D86EC32005D6DC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CAE3446E1D86EC32005D6DC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CAE344701D86EC32005D6DC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DAT_Decoder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Baidu.DAT-Decoder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CAE344711D86EC32005D6DC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DAT_Decoder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Baidu.DAT-Decoder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CAE344731D86EC32005D6DC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DAT_DecoderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Baidu.DAT-DecoderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DAT_Decoder.app/Contents/MacOS/DAT_Decoder";
+			};
+			name = Debug;
+		};
+		CAE344741D86EC32005D6DC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DAT_DecoderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Baidu.DAT-DecoderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DAT_Decoder.app/Contents/MacOS/DAT_Decoder";
+			};
+			name = Release;
+		};
+		CAE344761D86EC32005D6DC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DAT_DecoderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Baidu.DAT-DecoderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DAT_Decoder;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CAE344771D86EC32005D6DC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DAT_DecoderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Baidu.DAT-DecoderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DAT_Decoder;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAE344401D86EC32005D6DC2 /* Build configuration list for PBXProject "DAT_Decoder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAE3446D1D86EC32005D6DC2 /* Debug */,
+				CAE3446E1D86EC32005D6DC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAE3446F1D86EC32005D6DC2 /* Build configuration list for PBXNativeTarget "DAT_Decoder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAE344701D86EC32005D6DC2 /* Debug */,
+				CAE344711D86EC32005D6DC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CAE344721D86EC32005D6DC2 /* Build configuration list for PBXNativeTarget "DAT_DecoderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAE344731D86EC32005D6DC2 /* Debug */,
+				CAE344741D86EC32005D6DC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CAE344751D86EC32005D6DC2 /* Build configuration list for PBXNativeTarget "DAT_DecoderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAE344761D86EC32005D6DC2 /* Debug */,
+				CAE344771D86EC32005D6DC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAE3443D1D86EC32005D6DC2 /* Project object */;
+}
