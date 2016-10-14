@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA36F7FA1D9A32DF00355017 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = CA36F7F91D9A32DF00355017 /* icon.icns */; };
 		CAE3444A1D86EC32005D6DC2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE344491D86EC32005D6DC2 /* AppDelegate.m */; };
 		CAE3444D1D86EC32005D6DC2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE3444C1D86EC32005D6DC2 /* main.m */; };
 		CAE344501D86EC32005D6DC2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE3444F1D86EC32005D6DC2 /* ViewController.m */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CA36F7F91D9A32DF00355017 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = icon.icns; path = resource/icon.icns; sourceTree = "<group>"; };
 		CAE344451D86EC32005D6DC2 /* DAT_Decoder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DAT_Decoder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAE344481D86EC32005D6DC2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CAE344491D86EC32005D6DC2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -76,6 +78,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CA36F7F81D9A32BF00355017 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CA36F7F91D9A32DF00355017 /* icon.icns */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		CAE3443C1D86EC32005D6DC2 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +109,7 @@
 		CAE344471D86EC32005D6DC2 /* DAT_Decoder */ = {
 			isa = PBXGroup;
 			children = (
+				CA36F7F81D9A32BF00355017 /* Resources */,
 				CAE344481D86EC32005D6DC2 /* AppDelegate.h */,
 				CAE344491D86EC32005D6DC2 /* AppDelegate.m */,
 				CAE3444E1D86EC32005D6DC2 /* ViewController.h */,
@@ -242,6 +253,7 @@
 			files = (
 				CAE344521D86EC32005D6DC2 /* Assets.xcassets in Resources */,
 				CAE344551D86EC32005D6DC2 /* Main.storyboard in Resources */,
+				CA36F7FA1D9A32DF00355017 /* icon.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,7 +409,6 @@
 		CAE344701D86EC32005D6DC2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = DAT_Decoder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
@@ -409,7 +420,6 @@
 		CAE344711D86EC32005D6DC2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = DAT_Decoder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
@@ -489,6 +499,7 @@
 				CAE344711D86EC32005D6DC2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CAE344721D86EC32005D6DC2 /* Build configuration list for PBXNativeTarget "DAT_DecoderTests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +508,7 @@
 				CAE344741D86EC32005D6DC2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CAE344751D86EC32005D6DC2 /* Build configuration list for PBXNativeTarget "DAT_DecoderUITests" */ = {
 			isa = XCConfigurationList;
@@ -505,6 +517,7 @@
 				CAE344771D86EC32005D6DC2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
